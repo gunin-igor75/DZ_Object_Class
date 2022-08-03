@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Author pushkin = new Author("Александр", "Пушкин");
-        Author lermontov = new Author("Михаил", "Леермонтов");
-        Book bookPushkin = new Book("Капитанская дочка",pushkin, 2000);
-        Book bookLermontov = new Book("Бородино",lermontov, 2010);
+        Author pushkin = new Author("РђР»РµРєСЃР°РЅРґСЂ", "РџСѓС€РєРёРЅ");
+        Author lermontov = new Author("РњРёС…Р°РёР»", "Р›РµРµСЂРјРѕРЅС‚РѕРІ");
+        Book bookPushkin = new Book("РљР°РїРёС‚Р°РЅСЃРєР°СЏ РґРѕС‡РєР°",pushkin, 2000);
+        Book bookLermontov = new Book("Р‘РѕСЂРѕРґРёРЅРѕ",lermontov, 2010);
         System.out.println(bookPushkin);
         bookPushkin.setPublisherYear(2022);
         System.out.println(bookPushkin);
